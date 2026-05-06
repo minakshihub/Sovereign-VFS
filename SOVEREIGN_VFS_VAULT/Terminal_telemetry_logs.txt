@@ -1,0 +1,464 @@
+
+
+>>> VFS SOVEREIGN SYSTEM ONLINE <<<
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: band.zip
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : band.zip
+ ORIGINAL SIZE  : 96,037 bytes
+ AVG ENTROPY    : 72.42%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : VFS (Vault)
+ WRITTEN SIZE   : 67,719 bytes
+ NET ECONOMY    : 28,318 bytes (29.49%)
+ LATENCY        : 0.0099 seconds
+ THROUGHPUT     : 9.26 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: band.zip
+
+[SUCCESS] band.zip Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0061 seconds
+ RESTORE SPEED  : 14.96 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: child.docx
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : child.docx
+ ORIGINAL SIZE  : 107,154 bytes
+ AVG ENTROPY    : 98.81%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 107,154 bytes
+ LATENCY        : 0.0091 seconds
+ THROUGHPUT     : 11.19 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: child.docx
+[INFO] child.docx is RAW. Standard restoration bypassed.
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: gate.png
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : gate.png
+ ORIGINAL SIZE  : 127,161 bytes
+ AVG ENTROPY    : 82.22%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 127,161 bytes
+ LATENCY        : 0.0107 seconds
+ THROUGHPUT     : 11.30 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: gate.png
+[INFO] gate.png is RAW. Standard restoration bypassed.
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: gro.pdf
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : gro.pdf
+ ORIGINAL SIZE  : 1,182,355 bytes
+ AVG ENTROPY    : 97.38%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 1,182,355 bytes
+ LATENCY        : 0.0512 seconds
+ THROUGHPUT     : 22.02 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: gro.pdf
+
+[SUCCESS] gro.pdf Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0440 seconds
+ RESTORE SPEED  : 42.90 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: iodata.pdf
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : iodata.pdf
+ ORIGINAL SIZE  : 140,208 bytes
+ AVG ENTROPY    : 81.96%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 140,208 bytes
+ LATENCY        : 0.0105 seconds
+ THROUGHPUT     : 12.79 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: iodata.pdf
+[INFO] iodata.pdf is RAW. Standard restoration bypassed.
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: iti.pdf
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : iti.pdf
+ ORIGINAL SIZE  : 1,924,668 bytes
+ AVG ENTROPY    : 97.56%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 1,924,668 bytes
+ LATENCY        : 0.0817 seconds
+ THROUGHPUT     : 22.46 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: iti.pdf
+[INFO] iti.pdf is RAW. Standard restoration bypassed.
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: main.tex
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : main.tex
+ ORIGINAL SIZE  : 5,075 bytes
+ AVG ENTROPY    : 45.79%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : VFS (Vault)
+ WRITTEN SIZE   : 2,420 bytes
+ NET ECONOMY    : 2,655 bytes (52.32%)
+ LATENCY        : 0.0053 seconds
+ THROUGHPUT     : 0.92 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: main.tex
+
+[SUCCESS] main.tex Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0055 seconds
+ RESTORE SPEED  : 0.88 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: mial.tex
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : mial.tex
+ ORIGINAL SIZE  : 6,566 bytes
+ AVG ENTROPY    : 47.01%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : VFS (Vault)
+ WRITTEN SIZE   : 3,183 bytes
+ NET ECONOMY    : 3,383 bytes (51.52%)
+ LATENCY        : 0.0041 seconds
+ THROUGHPUT     : 1.53 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: mial.tex
+
+[SUCCESS] mial.tex Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0048 seconds
+ RESTORE SPEED  : 1.31 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: mp.png
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : mp.png
+ ORIGINAL SIZE  : 286,360 bytes
+ AVG ENTROPY    : 95.42%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 286,360 bytes
+ LATENCY        : 0.0177 seconds
+ THROUGHPUT     : 15.45 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: mp.png
+[INFO] mp.png is RAW. Standard restoration bypassed.
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: pho.jpg
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : pho.jpg
+ ORIGINAL SIZE  : 160,652 bytes
+ AVG ENTROPY    : 99.85%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 160,652 bytes
+ LATENCY        : 0.0117 seconds
+ THROUGHPUT     : 13.10 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: pho.jpg
+[INFO] pho.jpg is RAW. Standard restoration bypassed.
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: pnp.jpeg
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : pnp.jpeg
+ ORIGINAL SIZE  : 45,467 bytes
+ AVG ENTROPY    : 83.76%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 45,467 bytes
+ LATENCY        : 0.0087 seconds
+ THROUGHPUT     : 4.96 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: pnp.jpeg
+[INFO] pnp.jpeg is RAW. Standard restoration bypassed.
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: read.txt
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : read.txt
+ ORIGINAL SIZE  : 610 bytes
+ AVG ENTROPY    : 64.59%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : VFS (Vault)
+ WRITTEN SIZE   : 490 bytes
+ NET ECONOMY    : 120 bytes (19.67%)
+ LATENCY        : 0.0042 seconds
+ THROUGHPUT     : 0.14 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: read.txt
+
+[SUCCESS] read.txt Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0045 seconds
+ RESTORE SPEED  : 0.13 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: repo.pdf
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : repo.pdf
+ ORIGINAL SIZE  : 146,205 bytes
+ AVG ENTROPY    : 48.02%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : VFS (Vault)
+ WRITTEN SIZE   : 92,802 bytes
+ NET ECONOMY    : 53,403 bytes (36.53%)
+ LATENCY        : 0.0099 seconds
+ THROUGHPUT     : 14.06 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: repo.pdf
+
+[SUCCESS] repo.pdf Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0072 seconds
+ RESTORE SPEED  : 19.42 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: set.pdf
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : set.pdf
+ ORIGINAL SIZE  : 5,947,671 bytes
+ AVG ENTROPY    : 99.25%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 5,947,671 bytes
+ LATENCY        : 0.2508 seconds
+ THROUGHPUT     : 22.61 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: set.pdf
+[INFO] set.pdf is RAW. Standard restoration bypassed.
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: shot.jpg
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : shot.jpg
+ ORIGINAL SIZE  : 22 bytes
+ AVG ENTROPY    : 136.36%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : DIRECT (Raw)
+ WRITTEN SIZE   : 22 bytes
+ LATENCY        : 0.0048 seconds
+ THROUGHPUT     : 0.00 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: shot.jpg
+[INFO] shot.jpg is RAW. Standard restoration bypassed.
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: tpu.jpg
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : tpu.jpg
+ ORIGINAL SIZE  : 101,715 bytes
+ AVG ENTROPY    : 54.40%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : VFS (Vault)
+ WRITTEN SIZE   : 60,349 bytes
+ NET ECONOMY    : 41,366 bytes (40.67%)
+ LATENCY        : 0.0117 seconds
+ THROUGHPUT     : 8.30 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: tpu.jpg
+
+[SUCCESS] tpu.jpg Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0062 seconds
+ RESTORE SPEED  : 15.71 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: train.csv
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : train.csv
+ ORIGINAL SIZE  : 1,706,430 bytes
+ AVG ENTROPY    : 27.15%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : VFS (Vault)
+ WRITTEN SIZE   : 463,008 bytes
+ NET ECONOMY    : 1,243,422 bytes (72.87%)
+ LATENCY        : 0.0364 seconds
+ THROUGHPUT     : 44.66 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: train.csv
+
+[SUCCESS] train.csv Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0321 seconds
+ RESTORE SPEED  : 50.72 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: tsp.jpeg
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : tsp.jpeg
+ ORIGINAL SIZE  : 551,191 bytes
+ AVG ENTROPY    : 78.69%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : VFS (Vault)
+ WRITTEN SIZE   : 437,807 bytes
+ NET ECONOMY    : 113,384 bytes (20.57%)
+ LATENCY        : 0.0259 seconds
+ THROUGHPUT     : 20.27 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: tsp.jpeg
+
+[SUCCESS] tsp.jpeg Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0174 seconds
+ RESTORE SPEED  : 30.27 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 1
+Target Filename: vv.jpeg
+Select Tier ([1] Enterprise-80% | [2] Executive-70%): 1
+Select Mode ([1] HOT | [2] COLD): 1
+
+————————————————————————————————————————————————————————————
+ FILE NAME      : vv.jpeg
+ ORIGINAL SIZE  : 117,723 bytes
+ AVG ENTROPY    : 76.96%
+ TIER/MODE      : ENTERPRISE / HOT
+ ROUTE TAKEN    : VFS (Vault)
+ WRITTEN SIZE   : 90,790 bytes
+ NET ECONOMY    : 26,933 bytes (22.88%)
+ LATENCY        : 0.0085 seconds
+ THROUGHPUT     : 13.15 MB/s
+————————————————————————————————————————————————————————————
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 2
+Target Filename: vv.jpeg
+
+[SUCCESS] vv.jpeg Restored (Bit-Perfect).
+ RESTORE LATENCY: 0.0125 seconds
+ RESTORE SPEED  : 8.96 MB/s
+
+ [1] SAVE   [2] OPEN   [3] EXIT
+Command: 3
+Colab paid products - Cancel contracts here
