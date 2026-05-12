@@ -69,4 +69,20 @@ The core engine is contained within the `vfs_router.py` script.
 3. Execute the router:
    python vfs_router.py
 
+   🏗️ Beyond Routing: The Bare-Metal VFS Architecture
+While the entropy routing engine handles the I/O ingestion, Sovereign VFS operates as a complete, zero-trust file system down to the physical sector level.
+
+To mitigate SSD "Matrix Collapse" (Write-Amplification) in high-concurrency environments, the system utilizes a 5-Phase pipeline:
+
+Ingestion: Compress-Before-Encrypt (C-B-E) pipeline with Fast-Integer entropy routing.
+
+The Routing Brain: A 4-State Map (00 Raw, 01 Compressed, 10 Void, 11 Monolith) dispatching chunks via a cross-CPU 2-strike protocol.
+
+Physical Write: Variable-length chunks are packed into fixed 4KB physical sectors. Uses atomic .tmp commits and length-prefixed binary framing to prevent EOF marker crashes.
+
+Safety & Self-Healing: Backed by an NVMe Write-Ahead Log (WAL) and 2D Orthogonal Reed-Solomon Erasure Coding for seamless RAM-level reconstruction of corrupted sectors.
+
+Retrieval (The Surgical Strike): Sub-millisecond reads utilizing a Merkle Tree / BLAKE3 Poison Taster, a WAL Read-Through Cache to prevent "Ghost Reads", and zero-CPU direct memory spawning for Void/Monolith states.
+
+
 *(Follow the interactive terminal prompts to direct your target files through the Enterprise or Executive tiers).*
