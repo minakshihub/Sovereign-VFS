@@ -1,4 +1,12 @@
 # Sovereign VFS: Entropy-Aware Dynamic Storage Routing
+# Sovereign-VFS
+
+
+[![DOI](https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2FZHM4T-blue)](https://doi.org/10.17605/OSF.IO/ZHM4T)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+An advanced Virtual File System router featuring retroactive data squeezing, dynamic entropy routing, and physical sector packing for Edge Computing and high-frequency Industrial IoT (IIoT) environments.
+
 
 **The Problem:** Traditional file systems and backup tools act blindly. They attempt to compress every file passing through the write pipeline, burning CPU cycles and spiking latency on data that is already heavily compressed (e.g., `.pdf`, `.zip`, `.jpeg`). 
 
