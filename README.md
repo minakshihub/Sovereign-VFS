@@ -3,7 +3,6 @@
 
 
 [![DOI](https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2FZHM4T-blue)](https://doi.org/10.17605/OSF.IO/ZHM4T)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 ![Sovereign VFS](sovereign-vfs%20logo.png)
