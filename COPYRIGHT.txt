@@ -1,0 +1,7 @@
+Copyright © 2026 [Minakshi Aggarwal]. All Rights Reserved.
+
+Official Registration / Prior Art:
+The architectural blueprints, algorithms, and methodologies within this repository are formally registered and timestamped under OSF DOI:https://doi.org/10.17605/OSF.IO/ZHM4T
+
+Proprietary Notice:
+This repository and its contents are proprietary and confidential. No part of this repository, including but not limited to source code, architectural blueprints, phase mechanics, and algorithmic logic, may be copied, reproduced, distributed, or used for any commercial or non-commercial purpose without explicit, written permission from the author.
