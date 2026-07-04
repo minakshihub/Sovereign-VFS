@@ -1,1 +1,29 @@
+name: Build VFS Router EXE
 
+on:
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: windows-latest 
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install PyInstaller
+      run: pip install pyinstaller
+
+    - name: Build the EXE
+      run: pyinstaller --onefile vfs_router.py
+
+    - name: Upload the EXE for download
+      uses: actions/upload-artifact@v4
+      with:
+        name: VFS-Router-Windows-EXE
+        path: dist/vfs_router.exe
