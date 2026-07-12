@@ -27,6 +27,9 @@ Selective routing (zlib compression vs. raw bypass).
 
 V2 Roadmap (The Master Blueprint Implementation):
 
+
+Fast-Integer Heuristic: Replacing brute-force compression testing with a 1280-byte integer-counting buffer to assess entropy without floating-point math.
+
 Migration to lower-level languages (C/Rust) for Kernel-space or high-throughput integration.
 
 Implementation of 4KB fixed Sector Packing to prevent Matrix Collapse.
@@ -36,7 +39,6 @@ Implementation of 4KB fixed Sector Packing to prevent Matrix Collapse.
 Upgrading from Python hashlib to BLAKE3 C-bindings.
 
 Atomic .tmp file commits to prevent "Guillotine Debris."
-
 
 
 
