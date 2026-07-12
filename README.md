@@ -14,6 +14,32 @@
 
 ---
 
+⚠️ Project Status: Phase 1 Proof-of-Concept (User Space)
+Sovereign VFS is currently in the PoC phase. The Python codebase demonstrates the core routing logic, Length-Prefixed Framing, and selective compression.
+
+Current Python Implementation Features:
+
+User-Space Application Layer operation.
+
+SHA256 integrity verification.
+
+Selective routing (zlib compression vs. raw bypass).
+
+V2 Roadmap (The Master Blueprint Implementation):
+
+Migration to lower-level languages (C/Rust) for Kernel-space or high-throughput integration.
+
+Implementation of 4KB fixed Sector Packing to prevent Matrix Collapse.
+
+2D Orthogonal Parity Grid integration.
+
+Upgrading from Python hashlib to BLAKE3 C-bindings.
+
+Atomic .tmp file commits to prevent "Guillotine Debris."
+
+
+
+
 ## 1. Executive Summary
 
 **The Bottleneck:** Traditional file systems and backup engines operate with uniform computational overhead. They attempt to compress every file passing through the write pipeline, inducing severe CPU ingest latency on data that is already heavily compressed (e.g., `.pdf`, `.zip`, `.jpeg`) or inherently uncompressible. 
