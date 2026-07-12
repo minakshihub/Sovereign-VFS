@@ -111,6 +111,16 @@ The following matrix represents a live audit of the Sovereign VFS engine routing
 -
 ```bash
 
+📝 Architecture Decision Record (ADR): The Use of zlib
+Context: V1 Prototype Compression Engine
+
+Decision: The current pure Python implementation utilizes the standard zlib library (DEFLATE) rather than a custom bare-metal compressor.
+
+Rationale: The innovation of Sovereign VFS is the Routing Architecture (The 4-State Map, Dynamic Entropy Analysis, and 4KB Sector Alignment), not the compression algorithm itself. To scientifically prove the efficiency of the routing switchboard and atomic commits, we must isolate the variables by using a stable, battle-tested compressor.
+
+Future State: Because the architecture is highly modular, the zlib module is designed to be hot-swapped for lower-level, hardware-accelerated compression algorithms (like LZ4 or Zstandard via C-bindings) once the primary I/O routing matrix is finalized.
+
+
 ## 5. Enterprise Reproduction & Auditing
 
 The core engine is contained entirely within the `vfs_router.py` architecture.
