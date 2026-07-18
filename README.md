@@ -23,6 +23,8 @@ Sovereign VFS has evolved from a Python-based routing prototype into a lock-free
 
 ---
 
+
+
 ## ⚙️ V1.0 Bare-Metal Engine (C++20 Production Build)
 
 ### Architectural Pillars
@@ -75,6 +77,25 @@ clang++ -std=c++20 -I/opt/homebrew/include -L/opt/homebrew/lib -lz -lblake3 sove
 
 Bash
 ./sovereign_core
+
+
+## 🛠️ Development & Compilation Environment
+
+Sovereign VFS is a bare-metal architecture built for maximum cross-platform efficiency. 
+
+* **Native Architecture:** Developed natively on macOS (Apple Silicon / ARM64).
+* **Language Standard:** C++20
+* **Compiler Stack:**
+  * **macOS (Native):** Apple Clang (LLVM)
+  * **Linux (Cross-Compiled):** Ubuntu Server / GCC (`g++`)
+  * **Windows (Cross-Compiled):** MSYS2 (MinGW-w64) / GCC (`g++`) with `mman-win32` kernel translation bridge.
+* **Core Dependencies:** 
+  * `zlib` (Utilized strictly for deterministic trial-compression routing).
+  * `BLAKE3` (Built from source for 2-phase cryptographic chunk validation).
+
+
+
+
 Validating Fault Tolerance (Python Chaos Monkey)
 We do not wait for hardware to fail; we break it on purpose.
 
