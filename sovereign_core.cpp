@@ -13,6 +13,35 @@
 #include <iomanip>
 #include <string>
 #include <cstdlib>
+// --- WINDOWS KERNEL TRANSLATION BRIDGE ---
+#ifdef _WIN32
+#include <windows.h>
+#include <io.h>
+
+// Windows handles memory prefetching autonomously, so we safely bypass madvise
+#define MADV_SEQUENTIAL 0
+inline int madvise(void* addr, size_t length, int advice) {
+    return 0; 
+}
+
+// Windows equivalent of parallel lock-free writing (pwrite)
+inline long long pwrite(int fd, const void* buf, size_t count, unsigned long long offset) {
+    HANDLE hFile = (HANDLE)_get_osfhandle(fd);
+    if (hFile == INVALID_HANDLE_VALUE) return -1;
+    
+    OVERLAPPED ov = {0};
+    ov.Offset = (DWORD)(offset & 0xFFFFFFFF);
+    ov.OffsetHigh = (DWORD)(offset >> 32);
+    DWORD bytesWritten = 0;
+    
+    if (WriteFile(hFile, buf, count, &bytesWritten, &ov)) {
+        return bytesWritten;
+    }
+    return -1;
+}
+#endif
+// -----------------------------------------
+
 
 #pragma pack(push, 1)
 struct ChunkMetadata {
