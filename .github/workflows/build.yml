@@ -1,0 +1,49 @@
+name: Build Sovereign VFS
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch: # This allows you to click a button to run it manually
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Install Linux Dependencies (zlib)
+        run: sudo apt-get update && sudo apt-get install -y zlib1g-dev
+        
+      - name: Compile Linux Binary
+        run: g++ -std=c++20 -O3 sovereign_core.cpp -lz -o SovereignVFS-Linux
+        
+      - name: Upload Linux Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SovereignVFS-Linux-Binary
+          path: SovereignVFS-Linux
+
+  build-windows:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        
+      - name: Setup MSYS2 and Install Windows Dependencies (g++ and zlib)
+        uses: msys2/setup-msys2@v2
+        with:
+          update: true
+          install: mingw-w64-x86_64-gcc mingw-w64-x86_64-zlib
+          
+      - name: Compile Windows Executable
+        run: g++ -std=c++20 -O3 sovereign_core.cpp -lz -o SovereignVFS-Windows.exe
+        
+      - name: Upload Windows Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SovereignVFS-Windows-EXE
+          path: SovereignVFS-Windows.exe
